@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="todos.css">
+    <title>todo</title>
+</head>
+<body>
+    <div >
+        <h1 style="text-align: center ; border: 3px solid red; " >Todos</h1>
+        
+        <div class="addtodo">
+            <input type="text" id="todo" placeholder="Enter Description">
+            <input type="date" id="date">
+            <input type="time" id="time">
+            <button id="Add" >Add</button>
+            <button id="clear">Clear all</button>
+            
+
+        </div>
+        <div >
+                <table   style="width: 100%; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;" id="res">
+                    <tr >
+                        <th>Description</th>
+                        <th>time</th>
+                        <th>date</th>
+                        <th>Click to clear
+                        </th>
+                    </tr>
+                    
+
+                </table>
+        </div>
+
+    </div>
+
+    <script src="todos.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+table,th,td{
+    margin-left: 0cm;
+    border: 1px solid black ;
+    border-collapse: collapse;
+    border-bottom-color: black;
+    border-width: 3px;
+}
+*{
+    background-color: cyan;
+}
